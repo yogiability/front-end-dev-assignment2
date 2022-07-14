@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Web Design</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .parallax1{
+            background-image: url(img1.jpg);
+            width: 100%;
+            height: 600px;
+            background-attachment:fixed;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+  
+        }
+        .parallax2{
+            background-image: url(img2.jpg);
+            width: 100%;
+            height: 600px;
+            background-attachment:fixed;
+            position: relative;
+            display: grid;
+            place-items: center;
+        }
+        .parallax3{
+            background-image: url(img3.jpg);
+            width: 100%;
+            height: 600px;
+            background-attachment:fixed;
+            position: relative;
+            display: grid;
+            place-items: center;
+        }
+        .parallax4{
+            background-image: url(img4.jpg);
+            width: 100%;
+            height: 600px;
+            background-attachment:fixed;
+            position: relative;
+            display: grid;
+            place-items: center;
+        }
+        .heading{
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            padding: 5px;
+        }
+        .para{
+            position: absolute;
+            bottom: 0px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            border-bottom: 2px solid black;
+            height: 18%;
+            padding: 5px;
+            display: grid;
+            place-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="parallax1">
+        <div class="heading">
+            <h2>First Heading</h2>
+        </div>
+        <div class="para">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores dignissimos assumenda, tempore a perferendis laborum porro, voluptas quidem reiciendis neque aut repellat hic voluptates tenetur sit numquam, vero deleniti nesciunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsum porro corrupti amet. Aperiam sapiente officia velit. Necessitatibus, quae tenetur ipsum quod, temporibus consequuntur quibusdam.</p>
+        </div>
+    </div>
+    <div class="parallax2">
+        <div class="heading">
+            <h2>Second Heading</h2>
+        </div>
+        <div class="para">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores dignissimos assumenda, tempore a perferendis laborum porro, voluptas quidem reiciendis neque aut repellat hic voluptates tenetur sit numquam, vero deleniti nesciunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsum porro corrupti amet. Aperiam sapiente officia velit. Necessitatibus, quae tenetur ipsum quod, temporibus consequuntur quibusdam.</p>
+        </div>
+    </div>
+    <div class="parallax3">
+        <div class="heading">
+            <h2>Third Heading</h2>
+        </div>
+        <div class="para">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores dignissimos assumenda, tempore a perferendis laborum porro, voluptas quidem reiciendis neque aut repellat hic voluptates tenetur sit numquam, vero deleniti nesciunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsum porro corrupti amet. Aperiam sapiente officia velit. Necessitatibus, quae tenetur ipsum quod, temporibus consequuntur quibusdam.</p>
+        </div>
+    </div>
+    <div class="parallax4">
+        <div class="heading">
+            <h2>Forth Heading</h2>
+        </div>
+        <div class="para">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores dignissimos assumenda, tempore a perferendis laborum porro, voluptas quidem reiciendis neque aut repellat hic voluptates tenetur sit numquam, vero deleniti nesciunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam ipsum porro corrupti amet. Aperiam sapiente officia velit. Necessitatibus, quae tenetur ipsum quod, temporibus consequuntur quibusdam.</p>
+        </div>
+    </div>
+</body>
+</html>

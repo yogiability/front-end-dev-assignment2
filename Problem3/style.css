@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    margin: 11px 6%;
+}
+
+/* CSS for index.html starts */
+
+.head_container{
+    background-color: black;
+    height: 65vh;
+    width: 100%;
+    padding: 25px;
+    border-radius: 11px;
+    box-shadow: 1px 1px 5px black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8% 0 8%;
+}
+.logo{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.logo span{
+    color: #f9004d;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover,
+nav ul li a.active{
+    color: #f9004d;
+    transition: .3s;
+}
+.reg_btn{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid  transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: .2s ease;
+}
+.reg_btn:hover{
+    transform: scale(1.1);
+}
+.info{
+    color: white;
+    position: relative;
+    padding: 80px 8%;
+}
+.info h3{
+    font-size: 27px;
+}
+.info p{
+    margin-top: 20px;
+}
+.date{
+    color: #f9004d;
+    font-size: 17px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+.main{
+    display: flex;
+    margin: 31px 5%;
+}
+.card_1, .card_2, .card_3{
+    box-shadow: 1px 2px 11px black;
+    border-radius: 11px;
+    margin: 0 20px;
+    padding: 11px;
+    text-align: center;
+}
+.card_1 h4, .card_2 h4, .card_3 h4{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+#img1, #img2{
+    border-radius: 50%;
+    height: 200px;
+}
+#img3{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.card_1 h5, .card_2 h5, .card_3 h5{
+    font-size: 16px;
+    padding: 5px 0;
+}
+.card_1 p, .card_2 p, .card_3 p{
+    font-size: 14px;
+    color: #616161;
+}
+.card_1 a, .card_2 a, .card_3 a{
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+    padding: 5px 0;
+}
+footer{
+    background-color: #61616121;
+    margin: 31px 0;
+    border-radius: 11px;
+    text-align: center;
+    height: 200px;
+}
+.foot_head{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-radius: 11px 11px 0 0;
+    padding: 15px 0;
+    text-decoration: underline;
+    box-shadow: 1px 1px 2px grey;
+    color: #000000e0;
+}
+.foot_date{
+    position: relative;
+    top: 50px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-radius: 0 0 11px 11px;
+    padding: 15px 0;
+    text-decoration: underline;
+    box-shadow: 1px 1px 2px grey;
+    color: #000000e0;
+}
+.foot_body{
+    height: 50px;
+}
+.foot_title{
+    padding: 5px 0;
+    font-size: 15px;
+    color: #000000e0;
+}
+.foot_text{
+    padding: 5px 0 10px 0;
+    color: #616161;
+}
+.foot_btn{
+    text-decoration: none;
+    line-height: 35px;
+    background-color: #f9004d;
+    color: white;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 35px;
+    font-size: 14px;
+}
+
+/* CSS for index.html ends */
+/* CSS for register.html starts */
+
+
+.page_heading{
+    margin: 0 5%;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+.page_heading h2{
+    letter-spacing: 1px;
+    font-size: 29px;
+}
+.page_heading p{
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.body_head_container{
+    background-color: black;
+    height: 30vh;
+    width: 100%;
+    padding: 25px;
+    border-radius: 11px;
+    box-shadow: 1px 1px 5px black;
+}
+.register_main{
+    display: flex;
+    margin: 31px 5%;
+}
+.register_info{
+    width: 50vw;
+}
+.register_info h4{
+    font-size: 23px;
+    padding: 10px  0;
+}
+.register_info h5{
+    font-size: 16px;
+    padding-bottom: 10px;
+    color: #f9004d;
+}
+.register_info p{
+    color: #616161;
+    padding-bottom: 10px;
+}
+.register_info ul li{
+    margin-left: 20px;
+    color: #616161;
+}
+.register_form input{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    width: 285px;
+    height: 35px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+}
+.register_form label{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5px 0;
+}
+.register_form select{
+    border-radius: 2px;
+    width: 60px;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    margin-left: 5px;
+}
+.register_form textarea{
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    padding: 5px;
+    font-size: 16px;
+    margin-top: -10px;
+}
+#purchase{
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    letter-spacing: 1px;
+    background-color: #f9004d;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#purchase:hover{
+    transform: scale(1.1);
+}
+
+/* CSS for register.html ends */
+/* CSS for speaker.html starts */
+
+.speaker_body{
+    margin: 31px 5%;
+    display: flex;
+    /* align-items: center; */
+}
+.speaker_info h4{
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+.speaker_info h6{
+    font-size: medium;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+.speaker_info p{
+    font-size: 15px;
+    color: #616161;
+}
+.speaker_pic{
+    border-left: 1px solid grey;
+    padding: 15px;
+    text-align: center;
+}
+.speaker_pic h4{
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+.speaker_pic h6{
+    font-size: 14px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+.pic_1, .pic_2, .pic_3{
+    padding-bottom: 5px;
+    border-radius: 50%;
+    height: 200px;
+}
+
+/* CSS for speaker.html ends */
+/* CSS for schedule.html starts */
+
+.schedule_main{
+    display: flex;
+    margin: 31px 5%;
+    padding-left: 20vw;
+}
+.topic{
+    border-right: 1px solid grey;
+    padding-right: 3%;
+    line-height: 5.3vh;
+    text-align: right;
+}
+.topic_info{
+    padding-left: 3%;
+    line-height: 5vh;
+}
+.topic h4{
+    font-size: 18px;
+    color: #f9004d;
+}
+.topic h6{
+    font-size: 14px;
+}
+.topic_info h6{
+    font-size: 16px;
+}
+.topic_info p{
+    font-size: 14px;
+    color: #616161;
+}
+/* CSS for schedule.html ends */
+/* CSS for venue.html starts */
+
+.venue_main{
+    margin: 31px 5%;
+}
+#theatre_pic{
+    border-radius: 20px;   
+}
+
+
+/* nav .menu-btn i{
+    font-size: 30px;
+    margin-right: 14px;
+    cursor: pointer;
+    display: none;
+} */
